@@ -1,3 +1,4 @@
+import MyNewComponent from './MyNewComponent.jsx'
 import MyComponent from './MyComponent.jsx'
 import List from './List.jsx'
 import UserGreeting from './UserGreeting.jsx'
@@ -27,6 +28,7 @@ function App() {
     <UserGreeting  username="UserHacker" isLoggedIn={false}/>
     <List obj={items} objName="Language"/>
     <MyComponent/>
+    <MyNewComponent/>
     <Food/>
     <Footer/>
     </>
