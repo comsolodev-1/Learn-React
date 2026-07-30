@@ -27,9 +27,6 @@
     color: hsl(0,0%,30%);
 }
 
-/*
-//Button.jsx must be in the src directory 
-//this is external mode style
 .button{
     background-color: hsl(0, 5%, 54%);
     color: white;
@@ -38,4 +35,15 @@
     border: none;
     cursor: pointer;
 }
-*/
+
+.student{
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 1px solid black;
+    max-width: 350px;
+}
+
+.student p{
+    margin: 0;
+}
