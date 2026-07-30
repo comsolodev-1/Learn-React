@@ -10,10 +10,17 @@ function MyNewComponent(){
         setName(event.target.value);
     }
 
+    function handleComment(event){
+        setComment(event.target.value);
+    }
+
     return(
         <div>
             <input value={name} onChange={handleName}/>
             <p>Name: {name}</p>
+
+            <textarea value={comment} onChange={handleComment}></textarea>
+            <p>Comment: {comment}</p>
         </div>
     );
 }
