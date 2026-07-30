@@ -1,3 +1,4 @@
+import UserGreeting from './UserGreeting.jsx'
 import Student from './Student.jsx'
 import Button from './Button.jsx'
 import Card from './Card.jsx'
@@ -12,6 +13,7 @@ function App() {
     <Card/>
     <Button/>
     <Student name="soloDev" age={19} isDev={true}/>
+    <UserGreeting  username="UserHacker" isLoggedIn={false}/>
     <Food/>
     <Footer/>
     </>
