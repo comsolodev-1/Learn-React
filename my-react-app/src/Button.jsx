@@ -1,12 +1,20 @@
-/*
-//Button.jsx must be in the Button Folder Directory inside src
-//this is modular mode styles
-import styles from './Button.module.css'
-*/
-
 function Button(){
+
+    let count = 0;
+
+    const clickHandler = (e) => {
+        if (count % 2 == 0) {
+            count++; 
+            e.target.style.color = "black"
+        } else {
+            count++;
+            e.target.style.color = "white"
+        }
+    };
+
+
     return(
-        <button className="button">Click Me!</button>
+        <button className="button" onClick={clickHandler}>Click Me!</button>
     );
 }
 
