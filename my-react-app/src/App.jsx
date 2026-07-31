@@ -1,3 +1,4 @@
+import ColorPicker from './ColorPicker.jsx'
 import MyNewComponent from './MyNewComponent.jsx'
 import MyComponent from './MyComponent.jsx'
 import List from './List.jsx'
@@ -29,6 +30,7 @@ function App() {
     <List obj={items} objName="Language"/>
     <MyComponent/>
     <MyNewComponent/>
+    <ColorPicker/>
     <Food/>
     <Footer/>
     </>
