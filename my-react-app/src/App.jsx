@@ -1,3 +1,4 @@
+import UpdateList from './UpdateList.jsx'
 import UpdateArray from './UpdateArray.jsx'
 import NumCounter from './NumCounter.jsx'
 import ColorPicker from './ColorPicker.jsx'
@@ -34,6 +35,7 @@ function App() {
     <ColorPicker/>
     <NumCounter/>
     <UpdateArray/>
+    <UpdateList/>
     <Food/>
     <Footer/>
     </>
