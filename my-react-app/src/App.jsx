@@ -1,3 +1,4 @@
+import UpdateArray from './UpdateArray.jsx'
 import NumCounter from './NumCounter.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyNewComponent from './MyNewComponent.jsx'
@@ -32,6 +33,7 @@ function App() {
     <MyNewComponent/>
     <ColorPicker/>
     <NumCounter/>
+    <UpdateArray/>
     <Food/>
     <Footer/>
     </>
