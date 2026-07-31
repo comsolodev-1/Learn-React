@@ -1,3 +1,4 @@
+import NumCounter from './NumCounter.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import MyNewComponent from './MyNewComponent.jsx'
 import MyComponent from './MyComponent.jsx'
@@ -9,7 +10,6 @@ import Card from './Card.jsx'
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
-import { version } from 'react'
 
 function App() {
 
@@ -31,6 +31,7 @@ function App() {
     <MyComponent/>
     <MyNewComponent/>
     <ColorPicker/>
+    <NumCounter/>
     <Food/>
     <Footer/>
     </>
