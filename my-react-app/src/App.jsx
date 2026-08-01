@@ -1,3 +1,4 @@
+import Todo from './Todo.jsx'
 import UpdateArrObj from './UpdateArrObj.jsx'
 import UpdateList from './UpdateList.jsx'
 import UpdateArray from './UpdateArray.jsx'
@@ -38,6 +39,7 @@ function App() {
     <UpdateArray/>
     <UpdateList/>
     <UpdateArrObj/>
+    <Todo/>
     <Food/>
     <Footer/>
     </>

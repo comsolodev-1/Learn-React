@@ -14,7 +14,7 @@ function Button(){
 
 
     return(
-        <button className="button" onClick={clickHandler}>Click Me!</button>
+        <button id="button" onClick={clickHandler}>Click Me!</button>
     );
 }
 
