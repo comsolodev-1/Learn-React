@@ -1,3 +1,4 @@
+import UpdateArrObj from './UpdateArrObj.jsx'
 import UpdateList from './UpdateList.jsx'
 import UpdateArray from './UpdateArray.jsx'
 import NumCounter from './NumCounter.jsx'
@@ -36,6 +37,7 @@ function App() {
     <NumCounter/>
     <UpdateArray/>
     <UpdateList/>
+    <UpdateArrObj/>
     <Food/>
     <Footer/>
     </>
