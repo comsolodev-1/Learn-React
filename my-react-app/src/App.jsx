@@ -1,3 +1,4 @@
+import UseEffect from './UseEffect.jsx'
 import Todo from './Todo.jsx'
 import UpdateArrObj from './UpdateArrObj.jsx'
 import UpdateList from './UpdateList.jsx'
@@ -40,6 +41,7 @@ function App() {
     <UpdateList/>
     <UpdateArrObj/>
     <Todo/>
+    <UseEffect/>
     <Food/>
     <Footer/>
     </>
