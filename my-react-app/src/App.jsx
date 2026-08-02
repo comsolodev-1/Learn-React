@@ -1,3 +1,4 @@
+import DigitalClock from './DigitalClock.jsx'
 import UseEffect from './UseEffect.jsx'
 import Todo from './Todo.jsx'
 import UpdateArrObj from './UpdateArrObj.jsx'
@@ -42,6 +43,7 @@ function App() {
     <UpdateArrObj/>
     <Todo/>
     <UseEffect/>
+    <DigitalClock/>
     <Food/>
     <Footer/>
     </>
