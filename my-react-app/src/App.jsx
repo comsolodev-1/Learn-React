@@ -1,3 +1,4 @@
+import ComponentA from './ComponentA.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import UseEffect from './UseEffect.jsx'
 import Todo from './Todo.jsx'
@@ -41,6 +42,7 @@ function App() {
     <UpdateArray/>
     <UpdateList/>
     <UpdateArrObj/>
+    <ComponentA/>
     <Todo/>
     <UseEffect/>
     <DigitalClock/>
