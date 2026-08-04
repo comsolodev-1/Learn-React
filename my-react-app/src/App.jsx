@@ -1,3 +1,4 @@
+import StopWatch from './StopWatch.jsx'
 import ComponentA from './ComponentA.jsx'
 import DigitalClock from './DigitalClock.jsx'
 import UseEffect from './UseEffect.jsx'
@@ -45,9 +46,10 @@ function App() {
     <UpdateArrObj/>
     <Todo/>
     <UseEffect/>
-    <DigitalClock/>
     <ComponentA/>
     <RefComponent/>
+    <DigitalClock/>
+    <StopWatch/>
     <Food/>
     <Footer/>
     </>
