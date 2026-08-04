@@ -17,6 +17,7 @@ import Card from './Card.jsx'
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
+import RefComponent from './RefComponent.jsx'
 
 function App() {
 
@@ -42,10 +43,11 @@ function App() {
     <UpdateArray/>
     <UpdateList/>
     <UpdateArrObj/>
-    <ComponentA/>
     <Todo/>
     <UseEffect/>
     <DigitalClock/>
+    <ComponentA/>
+    <RefComponent/>
     <Food/>
     <Footer/>
     </>
